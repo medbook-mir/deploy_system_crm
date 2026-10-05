@@ -1,0 +1,1251 @@
+[
+  {
+    "orderId": 90001,
+    "orderNumber": "ORD-90001",
+    "userId": 1,
+    "status": "pending",
+    "currency": "USD",
+    "subtotal": 35.17,
+    "discountTotal": 0.35,
+    "shippingTotal": 9.99,
+    "grandTotal": 44.81,
+    "shipTo": {
+      "name": "Billy Braun",
+      "line1": "64-70 Avenue Emile Zola",
+      "city": "Sydney",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2023-11-08T00:00:00Z",
+    "items": [
+      {
+        "variantId": 1,
+        "productName": "Anta Air Force 1 NDESTRUKT",
+        "sku": "SKU-0001",
+        "unitPrice": 35.17,
+        "qty": 1,
+        "discount": 0.01,
+        "lineTotal": 34.82
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-11-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "orderId": 90002,
+    "orderNumber": "ORD-90002",
+    "userId": 2,
+    "status": "shipped",
+    "currency": "USD",
+    "subtotal": 57.22,
+    "discountTotal": 1.14,
+    "shippingTotal": 9.99,
+    "grandTotal": 66.07,
+    "shipTo": {
+      "name": "Cheryl Romaguera",
+      "line1": "129 Elm Grove",
+      "city": "North Canton",
+      "region": "Ohio",
+      "countryCode": "US"
+    },
+    "orderedAt": "2024-04-09T00:00:00Z",
+    "items": [
+      {
+        "variantId": 2,
+        "productName": "Anta Space Hippie 04",
+        "sku": "SKU-0002",
+        "unitPrice": 57.22,
+        "qty": 1,
+        "discount": 0.02,
+        "lineTotal": 56.08
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-04-09T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-04-09T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2024-04-10T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2024-04-11T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 66.07,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90002",
+      "status": "captured",
+      "createdAt": "2024-04-09T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 2,
+      "carrierName": "FedEx",
+      "trackingNumber": "TRK-90002-2",
+      "shippedAt": "2024-04-11T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90003,
+    "orderNumber": "ORD-90003",
+    "userId": 3,
+    "status": "pending",
+    "currency": "USD",
+    "subtotal": 64.78,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 74.77,
+    "shipTo": {
+      "name": "Lee Doyle-Grant",
+      "line1": "Viale Padania, 6",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "countryCode": "CA"
+    },
+    "orderedAt": "2023-09-12T00:00:00Z",
+    "items": [
+      {
+        "variantId": 3,
+        "productName": "XTEP Air Zoom Pegasus 37 A.I.R. Chaz Bear",
+        "sku": "SKU-0003",
+        "unitPrice": 64.78,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 64.78
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-09-12T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "orderId": 90004,
+    "orderNumber": "ORD-90004",
+    "userId": 4,
+    "status": "delivered",
+    "currency": "USD",
+    "subtotal": 50.79,
+    "discountTotal": 2.03,
+    "shippingTotal": 9.99,
+    "grandTotal": 58.75,
+    "shipTo": {
+      "name": "Angel Rolfson-Kulas",
+      "line1": "Carretera de Ses Salines a Colonia Sant Jordi, Km 11",
+      "city": "Queensland",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2024-01-01T00:00:00Z",
+    "items": [
+      {
+        "variantId": 4,
+        "productName": "Nike Blazer Low 77 Vintage",
+        "sku": "SKU-0004",
+        "unitPrice": 50.79,
+        "qty": 1,
+        "discount": 0.04,
+        "lineTotal": 48.76
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-01-01T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2024-01-02T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2024-01-03T00:00:00Z"
+      },
+      {
+        "status": "delivered",
+        "changedAt": "2024-01-06T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 58.75,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90004",
+      "status": "captured",
+      "createdAt": "2024-01-01T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 1,
+      "carrierName": "UPS",
+      "trackingNumber": "TRK-90004-1",
+      "shippedAt": "2024-01-03T00:00:00Z",
+      "deliveredAt": "2024-01-06T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90005,
+    "orderNumber": "ORD-90005",
+    "userId": 5,
+    "status": "pending",
+    "currency": "USD",
+    "subtotal": 9.57,
+    "discountTotal": 0.48,
+    "shippingTotal": 9.99,
+    "grandTotal": 19.08,
+    "shipTo": {
+      "name": "Sherri Davis",
+      "line1": "205 1st Ave W",
+      "city": "Sydney",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2024-04-23T00:00:00Z",
+    "items": [
+      {
+        "variantId": 5,
+        "productName": "XTEP ZoomX SuperRep Surge",
+        "sku": "SKU-0005",
+        "unitPrice": 9.57,
+        "qty": 1,
+        "discount": 0.05,
+        "lineTotal": 9.09
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-04-23T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "orderId": 90006,
+    "orderNumber": "ORD-90006",
+    "userId": 6,
+    "status": "cancelled",
+    "currency": "USD",
+    "subtotal": 61.46,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 71.45,
+    "shipTo": {
+      "name": "Tony Paucek",
+      "line1": "Am Muhlholz 31",
+      "city": "Frankfurt",
+      "region": "Frankfurt",
+      "countryCode": "DE"
+    },
+    "orderedAt": "2024-02-29T00:00:00Z",
+    "items": [
+      {
+        "variantId": 6,
+        "productName": "Zoom Freak 2",
+        "sku": "SKU-0006",
+        "unitPrice": 61.46,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 61.46
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-02-29T00:00:00Z"
+      },
+      {
+        "status": "cancelled",
+        "changedAt": "2024-02-29T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "orderId": 90007,
+    "orderNumber": "ORD-90007",
+    "userId": 7,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 96.73,
+    "discountTotal": 6.77,
+    "shippingTotal": 9.99,
+    "grandTotal": 99.95,
+    "shipTo": {
+      "name": "Betty Hammes",
+      "line1": "3314 Cessna Rd",
+      "city": "Milan",
+      "region": "Milan",
+      "countryCode": "IT"
+    },
+    "orderedAt": "2024-05-14T00:00:00Z",
+    "items": [
+      {
+        "variantId": 7,
+        "productName": "Nike Air Max Zephyr",
+        "sku": "SKU-0007",
+        "unitPrice": 96.73,
+        "qty": 1,
+        "discount": 0.07,
+        "lineTotal": 89.96
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-05-14T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-05-14T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 99.95,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90007",
+      "status": "captured",
+      "createdAt": "2024-05-14T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90008,
+    "orderNumber": "ORD-90008",
+    "userId": 8,
+    "status": "delivered",
+    "currency": "USD",
+    "subtotal": 63.04,
+    "discountTotal": 5.04,
+    "shippingTotal": 9.99,
+    "grandTotal": 67.99,
+    "shipTo": {
+      "name": "Kerry Kuhlman",
+      "line1": "Grigoriou Zaliki 6",
+      "city": "Paris",
+      "region": "Paris",
+      "countryCode": "FR"
+    },
+    "orderedAt": "2024-01-13T00:00:00Z",
+    "items": [
+      {
+        "variantId": 8,
+        "productName": "Jordan Delta",
+        "sku": "SKU-0008",
+        "unitPrice": 63.04,
+        "qty": 1,
+        "discount": 0.08,
+        "lineTotal": 58.0
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-01-13T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-01-13T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2024-01-14T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2024-01-15T00:00:00Z"
+      },
+      {
+        "status": "delivered",
+        "changedAt": "2024-01-18T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 67.99,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90008",
+      "status": "captured",
+      "createdAt": "2024-01-13T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 2,
+      "carrierName": "FedEx",
+      "trackingNumber": "TRK-90008-2",
+      "shippedAt": "2024-01-15T00:00:00Z",
+      "deliveredAt": "2024-01-18T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90009,
+    "orderNumber": "ORD-90009",
+    "userId": 9,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 33.18,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 43.17,
+    "shipTo": {
+      "name": "Charlene Krajcik",
+      "line1": "Eyrarbraut 3a",
+      "city": "Perth",
+      "region": "WA",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2024-06-22T00:00:00Z",
+    "items": [
+      {
+        "variantId": 9,
+        "productName": "Air Jordan XXXV PF",
+        "sku": "SKU-0009",
+        "unitPrice": 33.18,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 33.18
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-06-22T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-06-22T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 43.17,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90009",
+      "status": "captured",
+      "createdAt": "2024-06-22T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90010,
+    "orderNumber": "ORD-90010",
+    "userId": 10,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 36.3,
+    "discountTotal": 3.63,
+    "shippingTotal": 9.99,
+    "grandTotal": 42.66,
+    "shipTo": {
+      "name": "Conrad Spinka",
+      "line1": "64-70 Avenue Emile Zola",
+      "city": "Hong Kong",
+      "region": null,
+      "countryCode": "HK"
+    },
+    "orderedAt": "2023-10-05T00:00:00Z",
+    "items": [
+      {
+        "variantId": 10,
+        "productName": "Anta Waffle Racer Crater",
+        "sku": "SKU-0010",
+        "unitPrice": 36.3,
+        "qty": 1,
+        "discount": 0.1,
+        "lineTotal": 32.67
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-10-05T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-10-05T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 42.66,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90010",
+      "status": "captured",
+      "createdAt": "2023-10-05T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90011,
+    "orderNumber": "ORD-90011",
+    "userId": 11,
+    "status": "shipped",
+    "currency": "USD",
+    "subtotal": 54.42,
+    "discountTotal": 5.99,
+    "shippingTotal": 9.99,
+    "grandTotal": 58.42,
+    "shipTo": {
+      "name": "Lillie Schultz",
+      "line1": "129 Elm Grove",
+      "city": "San Francisco",
+      "region": "California",
+      "countryCode": "US"
+    },
+    "orderedAt": "2024-07-11T00:00:00Z",
+    "items": [
+      {
+        "variantId": 11,
+        "productName": "Li-Ning 7 EP Sisterhood",
+        "sku": "SKU-0011",
+        "unitPrice": 54.42,
+        "qty": 1,
+        "discount": 0.11,
+        "lineTotal": 48.43
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-07-11T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-07-11T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2024-07-12T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2024-07-13T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 58.42,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90011",
+      "status": "captured",
+      "createdAt": "2024-07-11T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 2,
+      "carrierName": "FedEx",
+      "trackingNumber": "TRK-90011-2",
+      "shippedAt": "2024-07-13T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90012,
+    "orderNumber": "ORD-90012",
+    "userId": 12,
+    "status": "delivered",
+    "currency": "USD",
+    "subtotal": 20.52,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 30.51,
+    "shipTo": {
+      "name": "Brian Jacobs",
+      "line1": "Viale Padania, 6",
+      "city": "Toronto",
+      "region": "ON",
+      "countryCode": "CA"
+    },
+    "orderedAt": "2024-05-22T00:00:00Z",
+    "items": [
+      {
+        "variantId": 12,
+        "productName": "Li-Ning Air Zoom Pegasus 37 A.I.R. Chaz Bear",
+        "sku": "SKU-0012",
+        "unitPrice": 20.52,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 20.52
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-05-22T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-05-22T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2024-05-23T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2024-05-24T00:00:00Z"
+      },
+      {
+        "status": "delivered",
+        "changedAt": "2024-05-27T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 30.51,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90012",
+      "status": "captured",
+      "createdAt": "2024-05-22T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 3,
+      "carrierName": "DHL Express",
+      "trackingNumber": "TRK-90012-3",
+      "shippedAt": "2024-05-24T00:00:00Z",
+      "deliveredAt": "2024-05-27T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90013,
+    "orderNumber": "ORD-90013",
+    "userId": 1,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 50.79,
+    "discountTotal": 6.6,
+    "shippingTotal": 9.99,
+    "grandTotal": 54.18,
+    "shipTo": {
+      "name": "Billy Braun",
+      "line1": "64-70 Avenue Emile Zola",
+      "city": "Sydney",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2024-03-29T00:00:00Z",
+    "items": [
+      {
+        "variantId": 4,
+        "productName": "Nike Blazer Low 77 Vintage",
+        "sku": "SKU-0004",
+        "unitPrice": 50.79,
+        "qty": 1,
+        "discount": 0.13,
+        "lineTotal": 44.19
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-03-29T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-03-29T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 54.18,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90013",
+      "status": "captured",
+      "createdAt": "2024-03-29T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90014,
+    "orderNumber": "ORD-90014",
+    "userId": 2,
+    "status": "shipped",
+    "currency": "USD",
+    "subtotal": 19.96,
+    "discountTotal": 2.79,
+    "shippingTotal": 9.99,
+    "grandTotal": 27.16,
+    "shipTo": {
+      "name": "Cheryl Romaguera",
+      "line1": "129 Elm Grove",
+      "city": "North Canton",
+      "region": "Ohio",
+      "countryCode": "US"
+    },
+    "orderedAt": "2023-08-29T00:00:00Z",
+    "items": [
+      {
+        "variantId": 13,
+        "productName": "Li-Ning ZoomX SuperRep Surge",
+        "sku": "SKU-0013",
+        "unitPrice": 19.96,
+        "qty": 1,
+        "discount": 0.14,
+        "lineTotal": 17.17
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-08-29T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-08-29T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2023-08-30T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2023-08-31T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 27.16,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90014",
+      "status": "captured",
+      "createdAt": "2023-08-29T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 2,
+      "carrierName": "FedEx",
+      "trackingNumber": "TRK-90014-2",
+      "shippedAt": "2023-08-31T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90015,
+    "orderNumber": "ORD-90015",
+    "userId": 3,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 25.93,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 35.92,
+    "shipTo": {
+      "name": "Lee Doyle-Grant",
+      "line1": "Viale Padania, 6",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "countryCode": "CA"
+    },
+    "orderedAt": "2023-11-19T00:00:00Z",
+    "items": [
+      {
+        "variantId": 14,
+        "productName": "Anta Air Zoom BB NXT",
+        "sku": "SKU-0014",
+        "unitPrice": 25.93,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 25.93
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-11-19T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-11-19T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 35.92,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90015",
+      "status": "captured",
+      "createdAt": "2023-11-19T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90016,
+    "orderNumber": "ORD-90016",
+    "userId": 4,
+    "status": "shipped",
+    "currency": "USD",
+    "subtotal": 70.39,
+    "discountTotal": 11.26,
+    "shippingTotal": 9.99,
+    "grandTotal": 69.12,
+    "shipTo": {
+      "name": "Angel Rolfson-Kulas",
+      "line1": "Carretera de Ses Salines a Colonia Sant Jordi, Km 11",
+      "city": "Queensland",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2023-10-24T00:00:00Z",
+    "items": [
+      {
+        "variantId": 15,
+        "productName": "Anta Air Force 1 07 LX",
+        "sku": "SKU-0015",
+        "unitPrice": 70.39,
+        "qty": 1,
+        "discount": 0.16,
+        "lineTotal": 59.13
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-10-24T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-10-24T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2023-10-25T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2023-10-26T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 69.12,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90016",
+      "status": "captured",
+      "createdAt": "2023-10-24T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 1,
+      "carrierName": "UPS",
+      "trackingNumber": "TRK-90016-1",
+      "shippedAt": "2023-10-26T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90017,
+    "orderNumber": "ORD-90017",
+    "userId": 5,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 23.11,
+    "discountTotal": 3.93,
+    "shippingTotal": 9.99,
+    "grandTotal": 29.17,
+    "shipTo": {
+      "name": "Sherri Davis",
+      "line1": "205 1st Ave W",
+      "city": "Sydney",
+      "region": "NSW",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2023-12-02T00:00:00Z",
+    "items": [
+      {
+        "variantId": 16,
+        "productName": "Anta Air Force 1 Shadow SE",
+        "sku": "SKU-0016",
+        "unitPrice": 23.11,
+        "qty": 1,
+        "discount": 0.17,
+        "lineTotal": 19.18
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-12-02T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-12-02T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 29.17,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90017",
+      "status": "captured",
+      "createdAt": "2023-12-02T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90018,
+    "orderNumber": "ORD-90018",
+    "userId": 6,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 67.23,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 77.22,
+    "shipTo": {
+      "name": "Tony Paucek",
+      "line1": "Am Muhlholz 31",
+      "city": "Frankfurt",
+      "region": "Frankfurt",
+      "countryCode": "DE"
+    },
+    "orderedAt": "2024-02-13T00:00:00Z",
+    "items": [
+      {
+        "variantId": 17,
+        "productName": "Anta Air Zoom Tempo NEXT%",
+        "sku": "SKU-0017",
+        "unitPrice": 67.23,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 67.23
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-02-13T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-02-13T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 77.22,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90018",
+      "status": "captured",
+      "createdAt": "2024-02-13T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90019,
+    "orderNumber": "ORD-90019",
+    "userId": 7,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 14.31,
+    "discountTotal": 2.72,
+    "shippingTotal": 9.99,
+    "grandTotal": 21.58,
+    "shipTo": {
+      "name": "Betty Hammes",
+      "line1": "3314 Cessna Rd",
+      "city": "Milan",
+      "region": "Milan",
+      "countryCode": "IT"
+    },
+    "orderedAt": "2023-09-19T00:00:00Z",
+    "items": [
+      {
+        "variantId": 18,
+        "productName": "Li-Ning Air Force 1 07 LX",
+        "sku": "SKU-0018",
+        "unitPrice": 14.31,
+        "qty": 1,
+        "discount": 0.19,
+        "lineTotal": 11.59
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-09-19T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-09-19T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 21.58,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90019",
+      "status": "captured",
+      "createdAt": "2023-09-19T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90020,
+    "orderNumber": "ORD-90020",
+    "userId": 8,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 31.5,
+    "discountTotal": 6.3,
+    "shippingTotal": 9.99,
+    "grandTotal": 35.19,
+    "shipTo": {
+      "name": "Kerry Kuhlman",
+      "line1": "Grigoriou Zaliki 6",
+      "city": "Paris",
+      "region": "Paris",
+      "countryCode": "FR"
+    },
+    "orderedAt": "2024-04-17T00:00:00Z",
+    "items": [
+      {
+        "variantId": 19,
+        "productName": "Li-Ning Air Force 1 Shadow SE",
+        "sku": "SKU-0019",
+        "unitPrice": 31.5,
+        "qty": 1,
+        "discount": 0.2,
+        "lineTotal": 25.2
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-04-17T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-04-17T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 35.19,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90020",
+      "status": "captured",
+      "createdAt": "2024-04-17T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90021,
+    "orderNumber": "ORD-90021",
+    "userId": 9,
+    "status": "shipped",
+    "currency": "USD",
+    "subtotal": 67.23,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 77.22,
+    "shipTo": {
+      "name": "Charlene Krajcik",
+      "line1": "Eyrarbraut 3a",
+      "city": "Perth",
+      "region": "WA",
+      "countryCode": "AU"
+    },
+    "orderedAt": "2023-12-18T00:00:00Z",
+    "items": [
+      {
+        "variantId": 17,
+        "productName": "Anta Air Zoom Tempo NEXT%",
+        "sku": "SKU-0017",
+        "unitPrice": 67.23,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 67.23
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-12-18T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-12-18T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2023-12-19T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2023-12-20T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 77.22,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90021",
+      "status": "captured",
+      "createdAt": "2023-12-18T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 3,
+      "carrierName": "DHL Express",
+      "trackingNumber": "TRK-90021-3",
+      "shippedAt": "2023-12-20T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90022,
+    "orderNumber": "ORD-90022",
+    "userId": 10,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 44.8,
+    "discountTotal": 9.86,
+    "shippingTotal": 9.99,
+    "grandTotal": 44.93,
+    "shipTo": {
+      "name": "Conrad Spinka",
+      "line1": "64-70 Avenue Emile Zola",
+      "city": "Hong Kong",
+      "region": null,
+      "countryCode": "HK"
+    },
+    "orderedAt": "2024-06-27T00:00:00Z",
+    "items": [
+      {
+        "variantId": 20,
+        "productName": "Anta DBreak-Type",
+        "sku": "SKU-0020",
+        "unitPrice": 44.8,
+        "qty": 1,
+        "discount": 0.22,
+        "lineTotal": 34.94
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-06-27T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-06-27T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 44.93,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90022",
+      "status": "captured",
+      "createdAt": "2024-06-27T01:00:00Z"
+    }
+  },
+  {
+    "orderId": 90023,
+    "orderNumber": "ORD-90023",
+    "userId": 11,
+    "status": "shipped",
+    "currency": "USD",
+    "subtotal": 37.87,
+    "discountTotal": 8.71,
+    "shippingTotal": 9.99,
+    "grandTotal": 39.15,
+    "shipTo": {
+      "name": "Lillie Schultz",
+      "line1": "129 Elm Grove",
+      "city": "San Francisco",
+      "region": "California",
+      "countryCode": "US"
+    },
+    "orderedAt": "2023-10-19T00:00:00Z",
+    "items": [
+      {
+        "variantId": 21,
+        "productName": "Adidas Air Max Up",
+        "sku": "SKU-0021",
+        "unitPrice": 37.87,
+        "qty": 1,
+        "discount": 0.23,
+        "lineTotal": 29.16
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2023-10-19T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2023-10-19T01:00:00Z"
+      },
+      {
+        "status": "processing",
+        "changedAt": "2023-10-20T00:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "changedAt": "2023-10-21T00:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 39.15,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90023",
+      "status": "captured",
+      "createdAt": "2023-10-19T01:00:00Z"
+    },
+    "shipment": {
+      "carrierId": 2,
+      "carrierName": "FedEx",
+      "trackingNumber": "TRK-90023-2",
+      "shippedAt": "2023-10-21T00:00:00Z"
+    }
+  },
+  {
+    "orderId": 90024,
+    "orderNumber": "ORD-90024",
+    "userId": 12,
+    "status": "paid",
+    "currency": "USD",
+    "subtotal": 75.53,
+    "discountTotal": 0.0,
+    "shippingTotal": 9.99,
+    "grandTotal": 85.52,
+    "shipTo": {
+      "name": "Brian Jacobs",
+      "line1": "Viale Padania, 6",
+      "city": "Toronto",
+      "region": "ON",
+      "countryCode": "CA"
+    },
+    "orderedAt": "2024-08-09T00:00:00Z",
+    "items": [
+      {
+        "variantId": 22,
+        "productName": "Li-Ning Air Max 270 React ENG",
+        "sku": "SKU-0022",
+        "unitPrice": 75.53,
+        "qty": 1,
+        "discount": 0.0,
+        "lineTotal": 75.53
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending",
+        "changedAt": "2024-08-09T00:00:00Z"
+      },
+      {
+        "status": "paid",
+        "changedAt": "2024-08-09T01:00:00Z"
+      }
+    ],
+    "payment": {
+      "amount": 85.52,
+      "currency": "USD",
+      "provider": "card",
+      "providerRef": "ref_90024",
+      "status": "captured",
+      "createdAt": "2024-08-09T01:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "name": "react-demo-v6",
+  "version": "6.5.1",
+  "description": "Boiler template to get up and running quickly with React, Storybook, Vite and TypeScript",
+  "author": "Harry Ho <https://harryho.org/>",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chromaui/intro-storybook-react-template"
+  },
+  "bugs": {
+    "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@iconify/react": "latest",
+    "@mui/icons-material": "^7.3.11",
+    "@mui/lab": "^7.0.1-beta.25",
+    "@mui/material": "^7.3.11",
+    "@toolpad/core": "^0.16.0",
+    "apexcharts": "^5.16.0",
+    "dayjs": "^1.11.13",
+    "react": "^19.2.7",
+    "react-apexcharts": "^2.1.1",
+    "react-dom": "^19.2.7",
+    "react-helmet-async": "^3.0.0",
+    "react-router": "^8.3.0",
+    "simplebar-react": "^3.2.6"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "init-msw": "msw init public/",
+    "test-storybook": "test-storybook",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@storybook/react": "^10.5.0",
+    "@storybook/react-vite": "^10.5.0",
+    "@storybook/test-runner": "^0.24.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "eslint-plugin-storybook": "^10.5.0",
+    "jsdom": "^29.1.1",
+    "msw": "^2.3.0",
+    "msw-storybook-addon": "^2.0.3",
+    "prop-types": "^15.8.1",
+    "react-docgen-typescript-plugin": "^1.0.8",
+    "storybook": "^10.5.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.4",
+    "vitest": "^3.2.6"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
